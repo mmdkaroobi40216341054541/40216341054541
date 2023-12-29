@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+    int i,mmd[100];
+    for ( i = 0 ; i<=99 ; i++ )
+        std::cin>>mmd[i];
+    for ( i = 0 ; i<=99 ; i++ )
+        if (mmd[i]==i)
+            std::cout<<mmd[i]<<" ";
+}

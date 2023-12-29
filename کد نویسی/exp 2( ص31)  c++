@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i, mmd[100];
+    for (i = 0; i < 100; i++)
+        cin >> mmd[i];
+    for (i = 0; i < 100; i += 3)
+        cout << mmd[i];
+    return 0;
+}
